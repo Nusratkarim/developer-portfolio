@@ -4,20 +4,25 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .brown {
     color: #552a2a;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
 .half-width {
     width: 50%;
     padding: 5%;
+
 }
 
 .half-width img {
@@ -51,4 +56,25 @@ section {
 .my {
     margin: 150px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience-item {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #552a2a;
+}
+
+#baby-hero-dp {
+    border-left: 7px solid #552a2a;
+}
+
+#full-stack-dp {
+    border-left: 7px solid rgb(153, 69, 58);
+}
+
+footer p {
+    text-align: center;
 }
